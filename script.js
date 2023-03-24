@@ -44,7 +44,7 @@ function StepFeldolgozo() {
         if ((state.gamers != state.step.gamers)&&  (state.step.sor !=-1)){
             clearInterval(state.timer);
             let p = document.getElementById("palya");
-            p.children[state.step.sor].children[state.step.oszlop].innerHTML="O";
+            p.children[state.step.sor].children[state.step.oszlop].innerHTML="<p>O</p>";
             p.children[state.step.sor].children[state.step.oszlop].onclick = null;
             state.lepes = true;
             //Játékvége??
